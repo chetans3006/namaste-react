@@ -1,13 +1,7 @@
-const heading = React.createElement(
-  "h1",
-  { id: "parent" },
-  React.createElement(
-    "div",
-    { id: "child" },
-    React.createElement("h2", null, "I am an h2 tag"),
-    React.createElement("h3", null, "I am an h3 tag")
-  ),
-  "hello world from React"
-);
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+// jsx
+const jsxHeading = <h1 className="head"> Namaste React in JSX🚀</h1>;
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(jsxHeading);
