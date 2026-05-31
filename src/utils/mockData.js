@@ -5,7 +5,7 @@ const reslist = [
     deliveryTime: "30 mins",
     rating: "4.3",
     cuisines: ["Pizza", "Italian", "Fast Food"],
-    cloudinaryImageId: "mah9nmt3jqyz5xet4v0w",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500",
   },
   {
     id: "102",
@@ -13,7 +13,7 @@ const reslist = [
     deliveryTime: "35 mins",
     rating: "4.5",
     cuisines: ["Biryani", "North Indian", "Mughlai"],
-    cloudinaryImageId: "7c7b7da0bddbbe4f48b6963af8614337",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500",
   },
   {
     id: "103",
@@ -21,7 +21,7 @@ const reslist = [
     deliveryTime: "25 mins",
     rating: "4.1",
     cuisines: ["Chicken", "Burgers", "Fast Food"],
-    cloudinaryImageId: "f01666ac73626461d7455d9c24005cd4",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500",
   },
   {
     id: "104",
@@ -29,8 +29,7 @@ const reslist = [
     deliveryTime: "20 mins",
     rating: "4.2",
     cuisines: ["Burgers", "American", "Snacks"],
-    cloudinaryImageId:
-      "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/aa0d081e-1f62-49ae-a85a-014eef225d76_262097.jpg",
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500",
   },
   {
     id: "105",
@@ -38,8 +37,7 @@ const reslist = [
     deliveryTime: "28 mins",
     rating: "4.0",
     cuisines: ["Healthy Food", "Sandwiches", "Salads"],
-    cloudinaryImageId:
-      "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/d5c121f9-e640-4453-ac03-e5dc4d76eb99_67233.jpg",
+    image: "https://images.unsplash.com/photo-1521390188846-e2a3a97453a0?w=500",
   },
   {
     id: "106",
@@ -47,8 +45,7 @@ const reslist = [
     deliveryTime: "22 mins",
     rating: "4.4",
     cuisines: ["Mexican", "Fast Food", "Snacks"],
-    cloudinaryImageId:
-      "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/10/df9335b5-b0d3-4680-919d-b19c9fc924d0_797861.JPG",
+    image: "https://images.unsplash.com/photo-1613514785940-daed07799d9b?w=500",
   },
   {
     id: "107",
@@ -56,8 +53,7 @@ const reslist = [
     deliveryTime: "27 mins",
     rating: "4.1",
     cuisines: ["Pizza", "Italian", "Pastas"],
-    cloudinaryImageId:
-      "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/8/f88000ae-358e-4c54-8246-f500c2b16334_680190.JPG",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500",
   },
   {
     id: "108",
@@ -65,24 +61,64 @@ const reslist = [
     deliveryTime: "30 mins",
     rating: "4.3",
     cuisines: ["North Indian", "Mithai", "Snacks"],
-    cloudinaryImageId: "7c7b7da0bddbbe4f48b6963af8614337",
+    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500",
   },
   {
     id: "109",
     name: "Bansi Vaishno Dhaba",
     deliveryTime: "18 mins",
     rating: "4.6",
-    cuisines: ["Desserts", "Waffles", "Beverages"],
-    cloudinaryImageId: "h8cn0ae8cdykxczx5ffb",
+    cuisines: ["Punjabi", "North Indian"],
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500",
   },
   {
     id: "110",
     name: "McDonald's",
     deliveryTime: "26 mins",
     rating: "4.2",
-    cuisines: ["Burgers", "MAC Pizza PUf"],
-    cloudinaryImageId:
-      "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/97c64e50-3b8f-41c4-a9d5-92c0c316f4b1_253767.JPG",
+    cuisines: ["Burgers", "Fast Food"],
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500",
+  },
+  {
+    id: "116",
+    name: "Pizza Hut",
+    deliveryTime: "32 mins",
+    rating: "4.0",
+    cuisines: ["Pizza", "Italian"],
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500",
+  },
+  {
+    id: "118",
+    name: "Haldiram's",
+    deliveryTime: "26 mins",
+    rating: "4.4",
+    cuisines: ["North Indian", "Sweets"],
+    image: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500",
+  },
+  {
+    id: "119",
+    name: "Wow! Momo",
+    deliveryTime: "20 mins",
+    rating: "4.1",
+    cuisines: ["Momos", "Tibetan"],
+    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500",
+  },
+  {
+    id: "120",
+    name: "Cafe Coffee Day",
+    deliveryTime: "27 mins",
+    rating: "4.0",
+    cuisines: ["Cafe", "Beverages"],
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500",
+  },
+  {
+    id: "121",
+    name: "Starbucks",
+    deliveryTime: "29 mins",
+    rating: "4.6",
+    cuisines: ["Cafe", "Coffee"],
+    image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500",
   },
 ];
+
 export default reslist;
